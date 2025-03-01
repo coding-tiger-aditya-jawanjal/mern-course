@@ -9,7 +9,9 @@ const Navbar = () => {
         <h1 className="font-bold text-4xl">Coding shop</h1>
       </div>
       <nav className="flex items-center gap-7 text-2xl">
-        <a href="#">Home</a>
+        <a href="#" className="custom-link">
+          Home
+        </a>
         <a href="#">About</a>
         <a href="#">Contact</a>
         <a href="#">products</a>

@@ -1,7 +1,15 @@
 @import "tailwindcss";
 
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
+}
+
+@layer utilities {
+  .custom-link {
+    @apply rounded-tr-[20px] rounded-bl-[20px] bg-cyan-700 text-white px-3 py-2;
+  }
+}
+
+.my-effect {
+  background-color: aqua;
 }
